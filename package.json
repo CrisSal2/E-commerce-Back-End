@@ -1,7 +1,6 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "e-commerce-back-end",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,18 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/CrisSal2/E-commerce-Back-End.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.3"
+  "bugs": {
+    "url": "https://github.com/CrisSal2/E-commerce-Back-End/issues"
   },
+  "homepage": "https://github.com/CrisSal2/E-commerce-Back-End#readme",
+  "description": "",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "pg": "^8.11.3",
-    "sequelize": "^5.21.7"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "sequelize": "^6.37.3"
   }
 }
