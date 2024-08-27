@@ -2,14 +2,10 @@ const express = require('express');
 const routes = require('./routes');
 // import sequelize connection
 const { Sequelize, DataTypes } = require('sequelize');
-import Sequelize from 'sequelize'
 
-/* import userModel from './user'
-import messageModel from './message' */
-
-const sequelize = new Sequelize(process.env.DB_NAME, process.env.DBA_USER, process.env.DB_PASSWORD, {
+const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
     dialect: 'postgres'
-})
+});
 
 const app = express();
 const PORT = process.env.PORT || 3001;
