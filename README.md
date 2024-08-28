@@ -1,34 +1,63 @@
-User Story
-AS AN avid reader
-I WANT to search for new books to read
-SO THAT I can keep a list of books to purchase
-Acceptance Criteria
-GIVEN a book search engine
-WHEN I load the search engine
-THEN I am presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
-WHEN I click on the Search for Books menu option
-THEN I am presented with an input field to search for books and a submit button
-WHEN I am not logged in and enter a search term in the input field and click the submit button
-THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site
-WHEN I click on the Login/Signup menu option
-THEN a modal appears on the screen with a toggle between the option to log in or sign up
-WHEN the toggle is set to Signup
-THEN I am presented with three inputs for a username, an email address, and a password, and a signup button
-WHEN the toggle is set to Login
-THEN I am presented with two inputs for an email address and a password and login button
-WHEN I enter a valid email address and create a password and click on the signup button
-THEN my user account is created and I am logged in to the site
-WHEN I enter my account’s email address and password and click on the login button
-THEN I the modal closes and I am logged in to the site
-WHEN I am logged in to the site
-THEN the menu options change to Search for Books, an option to see my saved books, and Logout
-WHEN I am logged in and enter a search term in the input field and click the submit button
-THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site and a button to save a book to my account
-WHEN I click on the Save button on a book
-THEN that book’s information is saved to my account
-WHEN I click on the option to see my saved books
-THEN I am presented with all of the books I have saved to my account, each featuring the book’s title, author, description, image, and a link to that book on the Google Books site and a button to remove a book from my account
-WHEN I click on the Remove button on a book
-THEN that book is deleted from my saved books list
-WHEN I click on the Logout button
-THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
+## E-commerce-Back-End
+  
+  
+## Description
+  
+ - This project is the backend for an E-commerce platform, built using Node.js and Express. It provides a RESTful API for managing products, categories, and tags, supporting full CRUD operations (Create, Read, Update, Delete).
+
+ # Video Walkthrough
+
+ - https://youtu.be/8Ap4JbZOL1U
+
+  
+## Table of Contents
+  
+  - [Installation](#installation)
+  - [Features](#features)
+  - [Technologies](#technologies)
+  - [Questions](#questions)
+  
+## Installation
+  
+  - Clone the repository
+
+  - Install dependencies: 'npm install'
+
+  - Set up environment variables (Example .env file is given)
+
+  - Connect to the databse (\i db/schema.sql) then quit (\q)
+
+  - Seed the database (npm run seed)
+
+  - start the local environment (npm start)
+  
+## Features
+  
+  - Manage products with CRUD operations
+
+  - Organize products into categories
+
+  - Tag products for easier search and filtering
+
+  - Relational data management using Sequelize ORM
+
+  - PostgreSQL as the database
+
+
+## Technologies
+  
+  - Node.js
+
+  - Express.js
+
+  - PostgreSQL
+
+  - Sequelize
+  
+  
+## Questions
+  
+  - https://github.com/crissal2
+  
+  - salgado.chris.m@gmail.com
+  
